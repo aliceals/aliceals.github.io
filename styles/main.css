@@ -61,6 +61,16 @@ header {
   font-size: 30px;
 }
 
+/*About me section*/
+
+.about {
+  margin-top: 20px;
+}
+
+.about p {
+  margin-top: 20px;
+}
+
 /*Footer Styling */
 
 .footer-distributed {

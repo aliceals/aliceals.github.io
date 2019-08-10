@@ -26,6 +26,7 @@ header {
 
 .nav-area li {
   display: inline-block;
+  text-shadow: 2px 2px #020202;
 }
 
 .nav-area li a {
@@ -46,6 +47,7 @@ header {
   height: 300px;
   margin: 20% 30%;
   text-align: center;
+  text-shadow: 2px 2px #020202;
 }
 
 .welcome-text h1 {

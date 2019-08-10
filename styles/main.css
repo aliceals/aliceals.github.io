@@ -218,7 +218,8 @@ header {
   }
 
   .nav-area {
-    width: 50%;
+    display: block;
+    width: 360px;
   }
 
   .about {
@@ -246,14 +247,32 @@ header {
   }
 }
 
-@media (max-width: 359px) {
+@media (max-width: 600px) {
   .welcome-text {
     display: block;
     width: 50%;
   }
 
-  .nav-area {
+  .welcome-text h1 {
+    font-size: 30px;
+  }
+
+  .welcome-text span {
+    font-size: 15px;
+  }
+
+  .wrapper {
+    display: block;
     width: 50%;
+    height: 50px;
+  }
+
+  .nav-area {
+    width: 300px;
+  }
+
+  .nav-area li a {
+    font-size: 10px;
   }
   .about {
     display: block;

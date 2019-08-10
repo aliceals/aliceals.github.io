@@ -39,6 +39,7 @@ header {
 .nav-area li a:hover {
   background: #fff;
   color: #333;
+  text-shadow: 2px 2px white;
 }
 
 .welcome-text {

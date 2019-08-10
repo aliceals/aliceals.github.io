@@ -22,6 +22,7 @@ header {
   float: right;
   list-style: none;
   margin-top: 20px;
+  float: left;
 }
 
 .nav-area li {
@@ -211,8 +212,58 @@ header {
 /* media queries */
 
 @media (max-width: 880px) {
+  .welcome-text {
+    display: block;
+    width: 50%;
+  }
+
+  .nav-area {
+    width: 50%;
+  }
+
+  .about {
+    display: block;
+    width: 80%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
   .footer-distributed {
-    font: bold 14px sans-serif;
+    font: bold 14px;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 359px) {
+  .welcome-text {
+    display: block;
+    width: 50%;
+  }
+
+  .nav-area {
+    width: 50%;
+  }
+  .about {
+    display: block;
+    width: 80%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed {
+    font: bold 14px;
   }
 
   .footer-distributed .footer-left,

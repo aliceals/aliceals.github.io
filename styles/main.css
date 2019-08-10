@@ -63,8 +63,16 @@ header {
 
 /*About me section*/
 
+.container {
+  text-align: center;
+}
+
 .about {
-  margin-top: 20px;
+  margin-top: 40px;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about p {

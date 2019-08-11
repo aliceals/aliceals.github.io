@@ -217,13 +217,16 @@ header {
 }
 
 .blog-post h2 {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .blog-post h1 {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+#blog {
+  margin: 5%;
 }
 /* media queries */
 

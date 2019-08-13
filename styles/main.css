@@ -228,6 +228,7 @@ header {
 #blog {
   margin: 5%;
 }
+
 /* media queries */
 
 @media (max-width: 880px) {
@@ -263,6 +264,10 @@ header {
 
   .footer-distributed .footer-center i {
     margin-left: 0;
+  }
+
+  img {
+    max-width: 100%;
   }
 }
 
@@ -316,6 +321,10 @@ header {
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
+
+  img {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 200px) {
@@ -367,5 +376,9 @@ header {
 
   .footer-distributed .footer-center i {
     margin-left: 0;
+  }
+
+  img {
+    max-width: 100%;
   }
 }

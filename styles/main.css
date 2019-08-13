@@ -4,11 +4,6 @@
   font-family: "Poiret One", cursive;
 }
 
-.wrapper {
-  width: 1170px;
-  margin: auto;
-}
-
 header {
   background: url("images/samoa2.JPG");
   height: 400px;
@@ -19,10 +14,8 @@ header {
 }
 
 .nav-area {
-  float: right;
   list-style: none;
-  margin-top: 20px;
-  float: left;
+  padding-top: 20px;
 }
 
 .nav-area li {
@@ -239,7 +232,6 @@ header {
 
   .nav-area {
     display: block;
-    width: 360px;
   }
 
   .about {
@@ -283,16 +275,6 @@ header {
 
   .welcome-text span {
     font-size: 15px;
-  }
-
-  .wrapper {
-    display: block;
-    width: 50%;
-    height: 50px;
-  }
-
-  .nav-area {
-    width: 300px;
   }
 
   .nav-area li a {
@@ -339,16 +321,6 @@ header {
 
   .welcome-text span {
     font-size: 15px;
-  }
-
-  .wrapper {
-    display: block;
-    width: 100%;
-    height: 50px;
-  }
-
-  .nav-area {
-    width: 300px;
   }
 
   .nav-area li a {

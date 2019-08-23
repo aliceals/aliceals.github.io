@@ -222,6 +222,10 @@ header {
   margin: 5%;
 }
 
+.image2 {
+  height: 220px;
+}
+
 /* media queries */
 
 @media (max-width: 880px) {

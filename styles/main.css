@@ -13,6 +13,14 @@ header {
   position: relative;
 }
 
+.bigHeading {
+  font-size: 30px;
+}
+
+.mediumHeading {
+  font-size: 25px;
+}
+
 .nav-area {
   list-style: none;
   padding-top: 20px;
